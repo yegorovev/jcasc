@@ -6,7 +6,7 @@ pipelineJob("DevOpsSchool/pipeline-scm") {
             scm {
                 git {
                     remote {
-                        github("yegorovev/draft", "https")
+                        github("yegorovev/devopsschool", "https")
                     }
                     branch("main")
                 }

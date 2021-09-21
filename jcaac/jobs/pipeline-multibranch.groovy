@@ -8,7 +8,7 @@ multibranchPipelineJob('DevOpsSchool/pipeline-multibranch') {
         github {
             id('123456') // IMPORTANT: use a constant and unique identifier
             repoOwner('yegorovev')
-            repository('draft')
+            repository('devopsschool')
             excludes('main')
             buildOriginPRHead(true)
             buildForkPRHead(false)

@@ -6,7 +6,7 @@ pipelineJob("DevOpsSchool/piplene-ci-maven-ut") {
             scm {
                 git {
                     remote {
-                        github("yegorovev/draft", "https")
+                        github("yegorovev/devopsschool", "https")
                     }
                     branch("main")
                 }
