@@ -193,11 +193,11 @@ jobs:
             description('DevOpsSchool')
         }    
 
-    - file: /var/jenkins_home/jcaac/jobs/simple-job.groovy
-    - file: /var/jenkins_home/jcaac/jobs/pipeline-01.groovy
-    - file: /var/jenkins_home/jcaac/jobs/generator.groovy
-    - file: /var/jenkins_home/jcaac/jobs/piplene-ci-maven-ut.groovy
-    - file: /var/jenkins_home/jcaac/jobs/pipeline-error.groovy
-    - file: /var/jenkins_home/jcaac/jobs/pipeline-scm.groovy
-    - file: /var/jenkins_home/jcaac/jobs/pipeline-parallel.groovy
-    - file: /var/jenkins_home/jcaac/jobs/pipeline-multibranch.groovy
+    - file: /var/jenkins_home/jcasc/jobs/simple-job.groovy
+    - file: /var/jenkins_home/jcasc/jobs/pipeline-01.groovy
+    - file: /var/jenkins_home/jcasc/jobs/generator.groovy
+    - file: /var/jenkins_home/jcasc/jobs/piplene-ci-maven-ut.groovy
+    - file: /var/jenkins_home/jcasc/jobs/pipeline-error.groovy
+    - file: /var/jenkins_home/jcasc/jobs/pipeline-scm.groovy
+    - file: /var/jenkins_home/jcasc/jobs/pipeline-parallel.groovy
+    - file: /var/jenkins_home/jcasc/jobs/pipeline-multibranch.groovy
